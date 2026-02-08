@@ -4,7 +4,7 @@ import requests
 import os
 
 # نجيب التوكن من المتغيرات
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("BOT8393582046:AAEoeptCCS750RvzyTpbmeqM57IY6Xy5ylI")
 
 async def start(update: Update, context):
     await update.message.reply_text(
